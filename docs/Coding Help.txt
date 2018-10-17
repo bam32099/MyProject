@@ -1,0 +1,113 @@
+GIT           email?: 43625341+bam32099@users.noreply.github.com
+
+gitmoji
+
+Commit = big, important changes / bug fixes
+
+Markdown
+CTRL+SHIFT+P Preview
+
+Guidelines
+use supported HTML5 and CSS3 features
+test all pages on all major browsers
+Can I Use?
+HTML 5 Test
+
+
+HTML5 Basic Template
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My First Webpage</title>
+</head>
+<body>
+    <h1>Main Heading</h1>
+    <h2>Sub Heading</h2>
+    <p>This is a paragraph m8.  It is going good.</p>
+    <!-- for comments like these, do CTRL+/ -->
+    
+</body>
+</html>
+
+
+<h1>Heading</h1>
+<p>paragraph</p>
+
+EMPTY TAGS
+<br>   LINE BREAK
+
+NESTING
+<p>Order your thingy <i>today</i></p>
+
+
+
+class, not unique. can use more classes on a single element. used to keep things the same
+id unique. cant have the same one
+
+UNIVERSAL SELECTOR - not required
+*
+
+Type Selectors
+p {
+
+ID selectors
+#copyright {
+	font-size: 75%;
+	text-align: right;
+}
+
+Class Selectors
+
+.base_color {
+	color: blue;
+}
+
+external styles
+<link
+	rel="stylesheet"
+	href="/css/master.css"
+
+.highlight { }
+MORE SPECIFIC SELECTOR
+p.highlight { }
+
+id - most specific
+class or pseudo-class
+element or pseudo-element - less specific EX: <p>
+
+measurements
+px absolute
+pt absolute - 1/72 inches - AVOID
+em relative - 1em=current size
+% relative to a current size
+vw
+vh
+
+
+
+color: #ff0000  = red
+
+color = text color
+background-color = page color
+
+rgba = a opacity-value 0=transparent 1=visable
+
+PARENT then DECENDENT
+main li { font-size: 50%}
+
+h2+p { margin-top: .5rem; }
+
+main>p { font-size: 80%; }
+
+SELECTOR FOR A CLASS WITHIN AN ELEMENT
+PARAGRAPHS AND ANY UL LISTS IN CLASS SPEAKERS
+p, ul.speakers { font-family: "Times New Roman"; }
+
+a:link { color: green; }
+a:hover, a:focus { color: pink; }
+
+main p:first-child { font-weight: bold; }

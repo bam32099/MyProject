@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'ComicPapyrus';
+    src: url('/fonts/ComicPapyrus.eot') format('embedded-opentype'),  url('/fonts/ComicPapyrus.woff') format('woff'), url('/fonts/ComicPapyrus.ttf')  format('truetype'), url('/fonts/ComicPapyrus.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.ul {font-family: 'ComicPapyrus'}
+
+header {background-color: grey}
